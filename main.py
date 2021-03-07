@@ -1,6 +1,4 @@
-#PYTHON PROJECT 2019-2020
 #RANDOM PASSWORD GENERATOR
-#ROLL NO 1869
 try:
     from tkinter import *
 except ImportError:
@@ -9,7 +7,7 @@ import time
 from pwgenfunc import RandPass
 import tkinter.messagebox
 def name():
-    myname=Label(text='Developed By:-  GAURAV SINGH',fg='black',font=('sans serif',15,'bold')).place(x=50,y=205)
+    myname=Label(text='Developed By:- GAURAV SINGH',fg='black',font=('sans serif',15,'bold')).place(x=50,y=205)
     return
 def pwGenerator(size = 8):
     data = RandPass(size)
